@@ -1,0 +1,25 @@
+#ID 
+Subjects: 30 participants
+Activity: 6 activities
+#Activity Labels
+WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+#Variables
+trainData 
+trainLabel
+Subjecttrain
+testData
+testLabel
+Subjecttest
+features
+Master
+#Values
+Mean
+STD
+#Process
+1-Read Tables
+2-Joining tables to create a master dataset
+3- Extracts only the measurements on the mean and standard deviation for each measurement 
+and adds descriptive activity names
+4-Labels the data set with descriptive variable names
+Merging the data and train and subject tables using rbind() function
+5-Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
